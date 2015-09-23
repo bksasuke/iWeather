@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="location" translatesAutoresizingMaskIntoConstraints="NO" id="aCM-gw-bI3">
+                                <rect key="frame" x="23" y="24" width="25" height="25"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="HaNoi, VietNam" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ULQ-iM-WEo">
+                                <rect key="frame" x="56" y="28" width="186" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="o" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QRu-dH-Ahc">
+                                <rect key="frame" x="215" y="57" width="20" height="19"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="oYY-c9-IAN"/>
+                                    <constraint firstAttribute="height" constant="19" id="yfG-MO-b1l"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YxV-cg-SHs">
+                                <rect key="frame" x="252" y="71" width="27" height="23"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="23" id="1pm-hj-Shr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aRL-PT-YU2">
+                                <rect key="frame" x="96" y="443" width="128" height="48"/>
+                                <state key="normal" image="update">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="updateweather:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="wKY-Fd-HJk"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Một con ngựa đau cả tàu bỏ cỏ" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H8Y-Jz-mHz">
+                                <rect key="frame" x="71" y="359" width="208" height="71"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="71" id="9tn-h1-YA7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="thunder" translatesAutoresizingMaskIntoConstraints="NO" id="vsk-Vm-NqX">
+                                <rect key="frame" x="96" y="232" width="128" height="128"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GnV-tp-w4N">
+                                <rect key="frame" x="56" y="57" width="197" height="154"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="154" id="xCi-1V-Nl0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="100"/>
+                                <state key="normal" title="30">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="change:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="QLV-OK-BO7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="GnV-tp-w4N" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="40" id="5W4-Oo-taW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="GnV-tp-w4N" secondAttribute="trailing" constant="51" id="8ks-lM-PlL"/>
+                            <constraint firstItem="H8Y-Jz-mHz" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="55" id="AiJ-UC-Ifi"/>
+                            <constraint firstItem="vsk-Vm-NqX" firstAttribute="centerX" secondItem="GnV-tp-w4N" secondAttribute="centerX" id="Bfg-ci-KOe"/>
+                            <constraint firstItem="YxV-cg-SHs" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="51" id="DLS-OC-gMU"/>
+                            <constraint firstItem="GnV-tp-w4N" firstAttribute="leading" secondItem="ULQ-iM-WEo" secondAttribute="leading" id="EAz-fg-EM4"/>
+                            <constraint firstAttribute="centerX" secondItem="aRL-PT-YU2" secondAttribute="centerX" id="I3W-SJ-Bic"/>
+                            <constraint firstItem="GnV-tp-w4N" firstAttribute="top" secondItem="ULQ-iM-WEo" secondAttribute="bottom" constant="8" symbolic="YES" id="VbQ-j6-pDk"/>
+                            <constraint firstAttribute="trailing" secondItem="QRu-dH-Ahc" secondAttribute="trailing" constant="85" id="Vqx-oi-uQy"/>
+                            <constraint firstItem="YxV-cg-SHs" firstAttribute="leading" secondItem="QRu-dH-Ahc" secondAttribute="trailing" constant="17" id="cQd-Uy-kLz"/>
+                            <constraint firstItem="aRL-PT-YU2" firstAttribute="top" secondItem="H8Y-Jz-mHz" secondAttribute="bottom" constant="13" id="dqs-LC-Cua"/>
+                            <constraint firstItem="GnV-tp-w4N" firstAttribute="top" secondItem="QRu-dH-Ahc" secondAttribute="top" id="ekr-Ug-iMR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aRL-PT-YU2" secondAttribute="trailing" constant="80" id="guY-8m-TaN"/>
+                            <constraint firstItem="vsk-Vm-NqX" firstAttribute="top" secondItem="GnV-tp-w4N" secondAttribute="bottom" constant="21" id="jQd-94-ETP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="H8Y-Jz-mHz" secondAttribute="trailing" constant="25" id="oIe-4F-Omm"/>
+                            <constraint firstItem="aRL-PT-YU2" firstAttribute="trailing" secondItem="vsk-Vm-NqX" secondAttribute="trailing" id="thC-V0-yjf"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="aRL-PT-YU2" secondAttribute="bottom" constant="77" id="uSy-UR-SYE"/>
+                            <constraint firstItem="YxV-cg-SHs" firstAttribute="trailing" secondItem="H8Y-Jz-mHz" secondAttribute="trailing" id="vEy-VB-tZp"/>
+                            <constraint firstItem="aRL-PT-YU2" firstAttribute="top" secondItem="vsk-Vm-NqX" secondAttribute="bottom" constant="83" id="zSU-jK-XZB"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Bfg-ci-KOe"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="degreetype" destination="YxV-cg-SHs" id="Vxs-Wn-Vh4"/>
+                        <outlet property="location" destination="ULQ-iM-WEo" id="5M0-ks-FXa"/>
+                        <outlet property="quote" destination="H8Y-Jz-mHz" id="olg-X2-Xnd"/>
+                        <outlet property="teamperature" destination="GnV-tp-w4N" id="MJK-8J-uhj"/>
+                        <outlet property="weatherIcon" destination="vsk-Vm-NqX" id="Dw3-6U-lgA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="185" y="357"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="location" width="32" height="32"/>
+        <image name="thunder" width="128" height="128"/>
+        <image name="update" width="48" height="48"/>
+    </resources>
+</document>
